@@ -1,0 +1,302 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family:sans-serif;
+   background-color: #b3aca7;
+
+}
+
+/*header*/
+
+
+
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #e6e6e6;
+   display: flex;
+   align-items: center;
+}
+#vaccine_logo {
+   width: 5vh;
+   height: auto;
+
+}
+.conpanyname {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}
+.smallnav { 
+   text-decoration: none;
+   color: #4b4b4b;
+}
+.navbar {
+   margin: 0 0 0 auto;
+}
+.ulnav {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+.linav{
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+
+
+/*header end*/
+
+/*First Container*/
+
+
+#vaccinepassport {
+   display: block;
+   width: 90%;
+   height: auto;
+   object-fit: cover;
+   margin: auto;
+}
+
+
+.headertitle {
+   font-family: sans-serif;
+   text-align: center;
+   margin-top: 2%;
+   font-size: 3vh;
+}
+
+.maintitle {
+   font-family: Impact, fantasy;
+   text-align: center;
+   font-size: 15vh;
+   margin-top: -2%;
+}
+
+.subtitle {
+   font-family: Optima, sans-serif;
+   text-align: center;
+   margin-top: -2%;
+   font-size: 4vh;
+}
+
+.btn {
+  line-height: 1.5;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  color: #212529;
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  border-radius: 100vh;
+}
+
+.block {
+   display: block;
+   margin: 0 auto;
+   width: 11%;
+}
+
+
+/*three pictures*/
+
+
+.flex-container {
+    display: inline-block;
+      text-align: center;
+}
+
+.image-wrap{
+    margin-left: 55px;
+    margin-top: 10%;
+
+}
+
+.image-wrap img {
+    width: 400px;
+    height: 400px;
+}
+
+.flex-item {
+    flex-basis: 100%;
+}
+
+.ex {
+   font-size: 20px;
+}
+
+.flex-container1 {
+    display: inline-block;
+      text-align: center;
+}
+
+.image-wrap1 {
+    margin-left: 55px;
+    margin-top: 10%;
+
+}
+
+.image-wrap1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.flex-item1 {
+    flex-basis: 100%;
+}
+
+
+/*footer*/
+footer {
+    background-color: rgb(122, 81, 71);
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgb(122, 81, 71);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+.sm ul {
+   height: 100%;
+}
+
+
+
+* {
+  
+  color: white;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+
+
+*:focus {
+  outline: 0;
+}
+
+.wrapper {
+  margin: 100px auto 0;
+  width: 70%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  margin: 0;
+}
+
+form * {
+  font-size: 20px;
+  letter-spacing: 0.075em;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+form .field label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg,  #b3aca7, white);
+  width: 100%;
+  height: 64px;
+  transition: width 333ms ease-in-out;
+  text-align: center;
+  padding: 18px 0;
+}
+
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding-left: 19.5%;
+  color: #313a3d;
+}
+
+form #msg {
+  height: 64px;
+  resize: none;
+  transition: all 333ms ease-in-out;
+  padding-top: 18px;
+}
+form textarea:focus#msg,
+form textarea:not(:placeholder-shown)#msg {
+  height: 166px;
+}
+form input[type="text"]:focus + label,
+form input[type="text"]:not(:placeholder-shown) + label,
+form textarea:focus + label,
+form textarea:not(:placeholder-shown) + label,
+form .field:hover label {
+  width: 18%;
+}
+form input[type="submit"] {
+  background: linear-gradient(90deg,  #b3aca7, white);
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  padding: 13px 50px;
+  transition: all 0.3s ease-in-out;
+}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+  background:  black;  
+}
+
+
+
+
